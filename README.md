@@ -38,8 +38,7 @@
 <p>5) The finished projects should all be open source and as much collaboration as possible is encouraged.</p>
 <p>6) Depending on the number of entries recieved and their completeness, a winning project may be chosen as the official Real Rent Control Map for Vancouver and be endorsed by the presenting organizations.</p>
 
-<h3>Registration:</h3>
-<p>Participants will be able to register their entries as soon as Date and Venue details have been fialized.</p>
+<h3>Community:</h3>
 <p>Join our <a href="https://discord.gg/Tq6AFCt">Discord</a> server to find other coders that plan to paticipate.</p>
 
 <h3>Suggested Resources:</h3>
