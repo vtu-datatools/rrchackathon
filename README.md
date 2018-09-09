@@ -1,9 +1,8 @@
 <h1>Real Rent Control Hackathon</h1>
 
-<h2>Event Details</h2>
-
 <h3>Description:</h3>
-<p>An event for local programmers and hacktivists to get involved in the fight for Real Rent Control. Vancouver Tenants Union and Populous Map, with the support of the more progressive municipal parties(COPE and One City), invite coders of all kinds to come together to help build an open source resource for accurately tracking rental data across our city.</p>
+<p>An event for local programmers and hacktivists to get involved in the fight for Real Rent Control.</p><br/>
+<p>Vancouver Tenants Union and Populous Map, with the support of the more progressive municipal parties(COPE and One City), invite coders of all kinds to come together to help build an open source resource for accurately tracking rental data across our city.</p>
 
 <h3>Goals:</h3>
 <ul>
@@ -39,7 +38,7 @@
 <p>6) Depending on the number of entries recieved and their completeness, a winning project may be chosen as the official Real Rent Control Map for Vancouver and be endorsed by the presenting organizations.</p>
 
 <h3>Community:</h3>
-<p>Join our <a href="https://discord.gg/Tq6AFCt">Discord</a> server to find other coders that plan to paticipate.</p>
+<p>Join our <a href="https://discord.gg/Tq6AFCt">Discord</a> server to find other coders that plan to participate.</p>
 
 <h3>Suggested Resources:</h3>
 <ul>
