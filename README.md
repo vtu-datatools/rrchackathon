@@ -20,6 +20,23 @@
 	<li>Geek out and have fun!</li>
 </ul>
 
+<h3>Instructions:</h3>
+<p>1) This Project is meant to be completed during the Hackathon Event, but eager participants may begin their entries beforehand.</p>
+<p>2) This repository is meant as a collective starting point. It currently contains an empty Ruby on Rails project for us to build from.</p>
+<p>3) It is not mandatory that Ruby on Rails be used for this project. If you perfer to use Python and Django or any other frameworks, go for it.</p>
+<p>4) As described in the Goals, the finished project is expected to:
+	<ul>
+		<li>a) Scrape rental data from popular rental websites(eg. "www.craigslist.com")</li>
+		<li>b) Automate scraping to repeat every few hours</li>
+		<li>c) Save up to date rental information into a database</li>
+		<li>d) Create a user interface for data visualization and analysis</li>
+		<li>e) Allow users to input rental information they are willing to provide</li>
+		<li>f) Verify provided information with pictographic proof. (Photo of reciept or screenshot of e-transfer)</li>
+	</ul>
+</p>
+<p>5) The finished projects should all be open source and as much collaboration as possible is encouraged.</p>
+<p>6) Depending on the number of entries recieved and their completeness, a winning project may be chosen as the official Real Rent Control Map for Vancouver and be endorsed by the presenting organizations.</p>
+
 <h3>Suggested Resources:</h3>
 <ul>
 	<li><a href='https://gist.github.com/JennDudley/2493288'>
