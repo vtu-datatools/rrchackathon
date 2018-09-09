@@ -26,12 +26,13 @@
 <p>3) It is not mandatory that Ruby on Rails be used for this project. If you perfer to use Python and Django or any other frameworks, go for it.</p>
 <p>4) As described in the Goals, the finished project is expected to:
 	<ul>
-		<li>a) Scrape rental data from popular rental websites(eg. "www.craigslist.com")</li>
-		<li>b) Automate scraping to repeat every few hours</li>
-		<li>c) Save up to date rental information into a database</li>
-		<li>d) Create a user interface for data visualization and analysis</li>
-		<li>e) Allow users to input rental information they are willing to provide</li>
-		<li>f) Verify provided information with pictographic proof. (Photo of reciept or screenshot of e-transfer)</li>
+		<li> Scrape rental data from popular rental websites(eg. "www.craigslist.com")</li>
+		<li> Automate scraping to repeat every few hours</li>
+		<li> Save up to date rental information into a database</li>
+		<li> Create a user interface for data visualization and analysis</li>
+		<li> UI must include search functions and must display data on a map</li>
+		<li> Allow users to input rental information they are willing to provide</li>
+		<li> Verify provided information with pictographic proof. (Photo of reciept or screenshot of e-transfer)</li>
 	</ul>
 </p>
 <p>5) The finished projects should all be open source and as much collaboration as possible is encouraged.</p>
