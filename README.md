@@ -1,43 +1,49 @@
 <h1>Real Rent Control Hackathon</h1>
 
-Event Details
+<h2>Event Details</h2>
 
-Organizers: 
-Bryan Jacobs, Laura Cuthbert (hopefully more...?)
+<h3>Organizers:</h3> 
+<p>Bryan Jacobs, Laura Cuthbert (hopefully more...?)</p>
 
-Date: 
-TBD (maybe Sept 29 -30 ??)
+<h3>Date:</h3>
+<p>TBD (maybe Sept 29 -30 ??)</p>
 
-Venue: 
-TBD (maybe 133 Powell ??)
+<h3>Venue:</h3>
+<p>TBD (maybe 133 Powell ??)</p>
 
-Description: 
-An event for local programmers and hacktivists to get involved in the fight for Real Rent Control. Vancouver Tenants Union, Populous Map and the more progressive municipal parties(COPE and One City) invite coders of all kinds to come together to help build an open source resource for accurately tracking rental data across our city.
+<h3>Description:</h3>
+<p>An event for local programmers and hacktivists to get involved in the fight for Real Rent Control. Vancouver Tenants Union, Populous Map and the more progressive municipal parties(COPE and One City) invite coders of all kinds to come together to help build an open source resource for accurately tracking rental data across our city.</p>
 
-Goals:
-Foster a grassroots network of activists with technological know-how.
-Champion open source principles and collaborative development practices.
-Harvest public data from online resources and monitor common rental websites.
-Save collected data into a database and create a web app with these features:
-Search for information about a specific rental unit.
-Register new rental units manually(pending approval with image verification).
-Display entire rental dataset visually on a map.
-Arm Vancouverites with new tools to enforce rent control and expand tenant rights.
-Geek out and have fun!
+<h3>Goals:</h3>
+<ul>
+	<li>Foster a grassroots network of activists with technological know-how.</li>
+	<li>Champion open source principles and collaborative development practices.</li>
+	<li>Harvest public data from online resources and monitor common rental websites.</li>
+	<li>Save collected data into a database and create a web app with these features:</li>
+	<ul>
+		<li>Search for information about a specific rental unit.</li>
+		<li>Register new rental units manually(pending approval with image verification).</li>
+		<li>Display entire rental dataset visually on a map.</li>
+	</ul>
+	<li>Arm Vancouverites with new tools to enforce rent control and expand tenant rights.</li>
+	<li>Geek out and have fun!</li>
+</ul>
 
-Promotion:
-	Facebook Event, Posters, Campus Clubs, Word of Mouth
+<h3>Promotion:</h3>
+<p>Facebook Event, Posters, Campus Clubs, Word of Mouth</p>
 
-Supplies:
-	BYOD, WIFI, power, snacks, caffeine
+<h3>Supplies:</h3>
+<p>BYOD, WIFI, power, snacks, caffeine</p>
 
-Suggested Resources:
-	<a href='#'>Steps to set up a Rails app, initialize a repo, push to Github and deploy to Heroku</a>
-	Beginner’s Guide to Ruby Scraping
-	Ruby on Rails Job Scheduling with Resque
-	Simple Search in Rails 4
-	Best Rails Image Uploader
-	Integrate Google Maps into Rails
+<h3>Suggested Resources:</h3>
+<ul>
+	<li><a href='#'>Steps to set up a Rails app, initialize a repo, push to Github and deploy to Heroku</a></li>
+	<li><a href="#">Beginner’s Guide to Ruby Scraping</a></li>
+	<li><a href="#">Ruby on Rails Job Scheduling with Resque</a></li>
+	<li><a href="#">Simple Search in Rails 4</a></li>
+	<li><a href="#">Best Rails Image Uploader</a></li>
+	<li><a href="#">Integrate Google Maps into Rails</a></li>
+</ul>
 
 
 
