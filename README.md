@@ -29,20 +29,20 @@
 	<li>Geek out and have fun!</li>
 </ul>
 
-<h3>Promotion:</h3>
-<p>Facebook Event, Posters, Campus Clubs, Word of Mouth</p>
-
-<h3>Supplies:</h3>
-<p>BYOD, WIFI, power, snacks, caffeine</p>
-
 <h3>Suggested Resources:</h3>
 <ul>
-	<li><a href='#'>Steps to set up a Rails app, initialize a repo, push to Github and deploy to Heroku</a></li>
-	<li><a href="#">Beginner’s Guide to Ruby Scraping</a></li>
-	<li><a href="#">Ruby on Rails Job Scheduling with Resque</a></li>
-	<li><a href="#">Simple Search in Rails 4</a></li>
-	<li><a href="#">Best Rails Image Uploader</a></li>
-	<li><a href="#">Integrate Google Maps into Rails</a></li>
+	<li><a href='https://gist.github.com/JennDudley/2493288'>
+		Steps to set up a Rails app, initialize a repo, push to Github and deploy to Heroku</a></li>
+	<li><a href="https://medium.com/@LindaVivah/the-beginner-s-guide-scraping-in-ruby-cheat-sheet-c4f9c26d1b8c">
+		Beginner’s Guide to Ruby Scraping</a></li>
+	<li><a href="https://blog.botreetechnologies.com/job-scheduling-with-resque-in-ruby-on-rails-e2c6bbd55838">
+		Ruby on Rails Job Scheduling with Resque</a></li>
+	<li><a href="http://www.korenlc.com/creating-a-simple-search-in-rails-4/">
+		Simple Search in Rails 4</a></li>
+	<li><a href="https://infinum.co/the-capsized-eight/best-rails-image-uploader-paperclip-carrierwave-refile">
+		Best Rails Image Uploader</a></li>
+	<li><a href="https://anadea.info/blog/how-to-integrate-google-maps-into-ruby-on-rails-app">
+		Integrate Google Maps into Rails</a></li>
 </ul>
 
 
