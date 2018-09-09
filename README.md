@@ -2,15 +2,6 @@
 
 <h2>Event Details</h2>
 
-<h3>Organizers:</h3> 
-<p>Bryan Jacobs, Laura Cuthbert (hopefully more...?)</p>
-
-<h3>Date:</h3>
-<p>TBD (maybe Sept 29 -30 ??)</p>
-
-<h3>Venue:</h3>
-<p>TBD (maybe 133 Powell ??)</p>
-
 <h3>Description:</h3>
 <p>An event for local programmers and hacktivists to get involved in the fight for Real Rent Control. Vancouver Tenants Union, Populous Map and the more progressive municipal parties(COPE and One City) invite coders of all kinds to come together to help build an open source resource for accurately tracking rental data across our city.</p>
 
@@ -37,6 +28,8 @@
 		Beginner’s Guide to Ruby Scraping</a></li>
 	<li><a href="https://blog.botreetechnologies.com/job-scheduling-with-resque-in-ruby-on-rails-e2c6bbd55838">
 		Ruby on Rails Job Scheduling with Resque</a></li>
+	<li><a href="https://medium.com/@furkanpur/installation-redis-on-windows-10-13fbb055be7c">
+		Installing Redis on Windows</a></li>
 	<li><a href="http://www.korenlc.com/creating-a-simple-search-in-rails-4/">
 		Simple Search in Rails 4</a></li>
 	<li><a href="https://infinum.co/the-capsized-eight/best-rails-image-uploader-paperclip-carrierwave-refile">
