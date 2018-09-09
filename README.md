@@ -3,7 +3,7 @@
 <h2>Event Details</h2>
 
 <h3>Description:</h3>
-<p>An event for local programmers and hacktivists to get involved in the fight for Real Rent Control. Vancouver Tenants Union, Populous Map and the more progressive municipal parties(COPE and One City) invite coders of all kinds to come together to help build an open source resource for accurately tracking rental data across our city.</p>
+<p>An event for local programmers and hacktivists to get involved in the fight for Real Rent Control. Vancouver Tenants Union and Populous Map, with the support of the more progressive municipal parties(COPE and One City), invite coders of all kinds to come together to help build an open source resource for accurately tracking rental data across our city.</p>
 
 <h3>Goals:</h3>
 <ul>
@@ -26,7 +26,7 @@
 <p>3) It is not mandatory that Ruby on Rails be used for this project. If you perfer to use Python and Django or any other frameworks, go for it.</p>
 <p>4) As described in the Goals, the finished project is expected to:
 	<ul>
-		<li> Scrape rental data from popular rental websites(eg. "www.craigslist.com")</li>
+		<li> Scrape rental data from popular rental websites(eg. www.craigslist.com)</li>
 		<li> Automate scraping to repeat every few hours</li>
 		<li> Save up to date rental information into a database</li>
 		<li> Create a user interface for data visualization and analysis</li>
@@ -37,6 +37,10 @@
 </p>
 <p>5) The finished projects should all be open source and as much collaboration as possible is encouraged.</p>
 <p>6) Depending on the number of entries recieved and their completeness, a winning project may be chosen as the official Real Rent Control Map for Vancouver and be endorsed by the presenting organizations.</p>
+
+<h3>Registration:</h3>
+<p>Participants will be able to register their entries as soon as Date and Venue details have been fialized.</p>
+<p>Join our <a href="https://discord.gg/Tq6AFCt">Discord</a> server to find other coders that plan to paticipate.</p>
 
 <h3>Suggested Resources:</h3>
 <ul>
