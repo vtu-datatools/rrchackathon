@@ -2,7 +2,7 @@
 
 <h3>Description:</h3>
 <p>An event for local programmers and hacktivists to get involved in the fight for Real Rent Control.</p><br/>
-<p>Vancouver Tenants Union and Populous Map, with the support of the more progressive municipal parties(COPE and One City), invite coders of all kinds to come together to help build an open source resource for accurately tracking rental data across our city.</p>
+<p><a href="https://www.vancouvertenantsunion.ca/">Vancouver Tenants Union</a> and <a href="https://populousmap.com/">Populous Map</a> join with the support of the more progressive municipal parties running in the Vancouver City Election on Oct. 20th. They invite coders of all kinds to come together to build an open source resource for accurately tracking rental data across our city.</p>
 
 <h3>Goals:</h3>
 <ul>
@@ -32,10 +32,12 @@
 		<li> UI must include search functions and must display data on a map</li>
 		<li> Allow users to input rental information they are willing to provide</li>
 		<li> Verify provided information with pictographic proof. (Photo of reciept or screenshot of e-transfer)</li>
+		<li><strong>BONUS:</strong> Automatically tweet alerts when new online rental postings are more than 4% higher than the price already listed in the database</li>
 	</ul>
 </p>
 <p>5) The finished projects should all be open source and as much collaboration as possible is encouraged.</p>
 <p>6) Depending on the number of entries recieved and their completeness, a winning project may be chosen as the official Real Rent Control Map for Vancouver and be endorsed by the presenting organizations.</p>
+
 
 <h3>Community:</h3>
 <p>Join our <a href="https://discord.gg/Tq6AFCt">Discord</a> server to find other coders that plan to participate.</p>
