@@ -2,13 +2,13 @@
 
 <h3>Description:</h3>
 <p>An event for local programmers and hacktivists to get involved in the fight for Real Rent Control.</p><br/>
-<p><a href="https://www.vancouvertenantsunion.ca/">Vancouver Tenants Union</a> and <a href="https://populousmap.com/">Populous Map</a> join with the support of the more progressive municipal parties running in the Vancouver City Election on Oct. 20th. They invite coders of all kinds to come together to build an open source resource for accurately tracking rental data across our city.</p>
+<p><a href="https://www.vancouvertenantsunion.ca/">Vancouver Tenants Union</a> and <a href="https://populousmap.com/">Populous Map</a> join with the support of the more progressive municipal parties(<a href="cope.bc.ca">COPE</a> and <a href="http://www.onecityvancouver.ca/">One City</a>) running in the Vancouver City Election on Oct. 20th. Together they invite coders of all kinds to team up and build an open source resource for accurately tracking rental data across our city.</p>
 
 <h3>Goals:</h3>
 <ul>
 	<li>Foster a grassroots network of activists with technological know-how.</li>
 	<li>Champion open source principles and collaborative development practices.</li>
-	<li>Harvest public data from online resources and monitor common rental websites.</li>
+	<li>Harvest public data from online rental resources and monitor common rental websites.</li>
 	<li>Save collected data into a database and create a web app with these features:</li>
 	<ul>
 		<li>Search for information about a specific rental unit.</li>
@@ -32,15 +32,15 @@
 		<li> UI must include search functions and must display data on a map</li>
 		<li> Allow users to input rental information they are willing to provide</li>
 		<li> Verify provided information with pictographic proof. (Photo of reciept or screenshot of e-transfer)</li>
-		<li><strong>BONUS:</strong> Automatically tweet alerts when new online rental postings are more than 4% higher than the price already listed in the database</li>
+		<li><strong>BONUS:</strong> Automatically tweet alerts when new online rental postings are 4% or higher relative to the price already listed in the database for that address.(#vanRE #RealRentControl)</li>
 	</ul>
 </p>
-<p>5) The finished projects should all be open source and as much collaboration as possible is encouraged.</p>
+<p>5) The finished projects should be open source and as much collaboration as possible is encouraged.</p>
 <p>6) Depending on the number of entries recieved and their completeness, a winning project may be chosen as the official Real Rent Control Map for Vancouver and be endorsed by the presenting organizations.</p>
 
 
 <h3>Community:</h3>
-<p>Join our <a href="https://discord.gg/Tq6AFCt">Discord</a> server to find other coders that plan to participate.</p>
+<p>Join our <a href="https://discord.gg/Tq6AFCt">Discord</a> server to find and connect with other coders that plan to participate.</p>
 
 <h3>Suggested Resources:</h3>
 <ul>
