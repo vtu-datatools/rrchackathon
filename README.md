@@ -3,7 +3,7 @@
 <h3>Description:</h3>
 <p>Vacancy Control, Purpose-built Rentals, and a Rent Freeze. There are many great, progressive ideas floating around right now, each trying to tackle Vancouver’s housing crisis. The point where all of these different plans intersect is data.</p>
 
-<p>The Real Rent Control Hackathon is an event for local programmers and hacktivists to get involved in our fight for Real Rent Control. <a href="https://www.vancouvertenantsunion.ca/">Vancouver Tenants Union</a>, <a href="https://populousmap.com/">Populous Map</a> and the more progressive municipal parties(<a href="cope.bc.ca">COPE</a> and <a href="http://www.onecityvancouver.ca/">One City</a>) invite coders of all kinds to come together to help build an open-source tool for accurately tracking rental data across our city.</p>
+<p>The Real Rent Control Hackathon is an event for local programmers and hacktivists to get involved in our fight for Real Rent Control. Hosted by <a href="https://www.vancouvertenantsunion.ca/">Vancouver Tenants Union</a>,and <a href="https://populousmap.com/">Populous Map</a>, with support from the more progressive municipal parties(<a href="cope.bc.ca">COPE</a> and <a href="http://www.onecityvancouver.ca/">One City</a>). They invite coders of all kinds to come together to help build an open-source tool for accurately tracking rental data across our city.</p>
 
 <h3>Goals:</h3>
 <ul>
@@ -21,7 +21,7 @@
 </ul>
 
 <h3>Instructions:</h3>
-<p>1) This Project is meant to be completed during the Hackathon Event, but eager participants may get started beforehand.</p>
+<p>1) This project is meant to be completed during the Hackathon Event, but eager participants may get started beforehand.</p>
 <p>2) This repository is meant as a collective starting point. It currently contains an empty Ruby on Rails project for us to build from.</p>
 <p>3) It is not mandatory that Ruby on Rails be used for this project. If you perfer to use Python and Django or any other frameworks go for it, but your work may not be included in the final project.</p>
 <p>4) As described in the Goals, the finished project is expected to:
