@@ -1,8 +1,9 @@
 <h1>Real Rent Control Hackathon</h1>
 
 <h3>Description:</h3>
-<p>An event for local programmers and hacktivists to get involved in the fight for Real Rent Control.</p><br/>
-<p><a href="https://www.vancouvertenantsunion.ca/">Vancouver Tenants Union</a> and <a href="https://populousmap.com/">Populous Map</a> join with the support of the more progressive municipal parties(<a href="cope.bc.ca">COPE</a> and <a href="http://www.onecityvancouver.ca/">One City</a>) running in the Vancouver City Election on Oct. 20th. Together they invite coders of all kinds to team up and build an open source resource for accurately tracking rental data across our city.</p>
+<p>Vacancy Control, Purpose-built Rentals, and a Rent Freeze. There are many great, progressive ideas floating around right now, each trying to tackle Vancouver’s housing crisis. The point where all of these different plans intersect is data.</p>
+
+<p>The Real Rent Control Hackathon is an event for local programmers and hacktivists to get involved in our fight for Real Rent Control. <a href="https://www.vancouvertenantsunion.ca/">Vancouver Tenants Union</a>, <a href="https://populousmap.com/">Populous Map</a> and the more progressive municipal parties(<a href="cope.bc.ca">COPE</a> and <a href="http://www.onecityvancouver.ca/">One City</a>) invite coders of all kinds to come together to help build an open source resource for accurately tracking rental data across our city.</p>
 
 <h3>Goals:</h3>
 <ul>
@@ -20,9 +21,9 @@
 </ul>
 
 <h3>Instructions:</h3>
-<p>1) This Project is meant to be completed during the Hackathon Event, but eager participants may begin their entries beforehand.</p>
+<p>1) This Project is meant to be completed during the Hackathon Event, but eager participants may begin get started beforehand.</p>
 <p>2) This repository is meant as a collective starting point. It currently contains an empty Ruby on Rails project for us to build from.</p>
-<p>3) It is not mandatory that Ruby on Rails be used for this project. If you perfer to use Python and Django or any other frameworks, go for it.</p>
+<p>3) It is not mandatory that Ruby on Rails be used for this project. If you perfer to use Python and Django or any other frameworks go for it, but your work may not be included in the final project.</p>
 <p>4) As described in the Goals, the finished project is expected to:
 	<ul>
 		<li> Scrape rental data from popular rental websites(eg. www.craigslist.com)</li>
@@ -35,12 +36,12 @@
 		<li><strong>BONUS:</strong> Automatically tweet alerts when new online rental postings are 4% or higher relative to the price already listed in the database for that address.(#vanRE #RealRentControl)</li>
 	</ul>
 </p>
-<p>5) The finished projects should be open source and as much collaboration as possible is encouraged.</p>
-<p>6) Depending on the number of entries recieved and their completeness, a winning project may be chosen as the official Real Rent Control Map for Vancouver and be endorsed by the presenting organizations.</p>
+<p>5) The finished project will be open source and as much collaboration as possible is encouraged.</p>
+<p>6) Our goal is to make a single project. Different parts will be worked on by teams of participants. No matter your technical interests, including data analysis, web developent, UX, graphic design, etc. There is a place for you at this event.</p>
 
 
 <h3>Community:</h3>
-<p>Join our <a href="https://discord.gg/Tq6AFCt">Discord</a> server to find and connect with other coders that plan to participate.</p>
+<p>Join our <a href="https://discord.gg/Tq6AFCt">Discord</a> server to connect with other coders that plan to participate.</p>
 
 <h3>Suggested Resources:</h3>
 <ul>
