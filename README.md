@@ -3,7 +3,7 @@
 <h3>Description:</h3>
 <p>Vacancy Control, Purpose-built Rentals, and a Rent Freeze. There are many great, progressive ideas floating around right now, each trying to tackle Vancouver’s housing crisis. The point where all of these different plans intersect is data.</p>
 
-<p>The Real Rent Control Hackathon is an event for local programmers and hacktivists to get involved in our fight for Real Rent Control. <a href="https://www.vancouvertenantsunion.ca/">Vancouver Tenants Union</a>, <a href="https://populousmap.com/">Populous Map</a> and the more progressive municipal parties(<a href="cope.bc.ca">COPE</a> and <a href="http://www.onecityvancouver.ca/">One City</a>) invite coders of all kinds to come together to help build an open source resource for accurately tracking rental data across our city.</p>
+<p>The Real Rent Control Hackathon is an event for local programmers and hacktivists to get involved in our fight for Real Rent Control. <a href="https://www.vancouvertenantsunion.ca/">Vancouver Tenants Union</a>, <a href="https://populousmap.com/">Populous Map</a> and the more progressive municipal parties(<a href="cope.bc.ca">COPE</a> and <a href="http://www.onecityvancouver.ca/">One City</a>) invite coders of all kinds to come together to help build an open-source tool for accurately tracking rental data across our city.</p>
 
 <h3>Goals:</h3>
 <ul>
@@ -21,7 +21,7 @@
 </ul>
 
 <h3>Instructions:</h3>
-<p>1) This Project is meant to be completed during the Hackathon Event, but eager participants may begin get started beforehand.</p>
+<p>1) This Project is meant to be completed during the Hackathon Event, but eager participants may get started beforehand.</p>
 <p>2) This repository is meant as a collective starting point. It currently contains an empty Ruby on Rails project for us to build from.</p>
 <p>3) It is not mandatory that Ruby on Rails be used for this project. If you perfer to use Python and Django or any other frameworks go for it, but your work may not be included in the final project.</p>
 <p>4) As described in the Goals, the finished project is expected to:
@@ -32,16 +32,16 @@
 		<li> Create a user interface for data visualization and analysis</li>
 		<li> UI must include search functions and must display data on a map</li>
 		<li> Allow users to input rental information they are willing to provide</li>
-		<li> Verify provided information with pictographic proof. (Photo of reciept or screenshot of e-transfer)</li>
+		<li> Verify provided information with pictographic proof. (ex. Photo of reciept or screenshot of e-transfer)</li>
 		<li><strong>BONUS:</strong> Automatically tweet alerts when new online rental postings are 4% or higher relative to the price already listed in the database for that address.(#vanRE #RealRentControl)</li>
 	</ul>
 </p>
 <p>5) The finished project will be open source and as much collaboration as possible is encouraged.</p>
-<p>6) Our goal is to make a single project. Different parts will be worked on by teams of participants. No matter your technical interests, including data analysis, web developent, UX, graphic design, etc. There is a place for you at this event.</p>
+<p>6) Our goal is to make a single project. Different parts will be worked on by teams of participants. No matter your technical interests, including data analysis, web developent, UX, graphic design, etc. there is a place for you at this event.</p>
 
 
 <h3>Community:</h3>
-<p>Join our <a href="https://discord.gg/Tq6AFCt">Discord</a> server to connect with other coders that plan to participate.</p>
+<p>Join our <a href="https://discord.gg/Tq6AFCt">Discord</a> server to connect with other coders that are going to participate. Join the channels that interest you and start making the plan for our build with the other skilled participants.</p>
 
 <h3>Suggested Resources:</h3>
 <ul>
