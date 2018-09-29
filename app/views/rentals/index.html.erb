@@ -1,0 +1,7 @@
+<% @rentals %>
+
+<% rentals_list = JSON.parse(File.read('public/output.json')) %>
+
+<%  rentals_list.each do |rental|  %>
+      <%= rental["address"] %>
+<%  end %>

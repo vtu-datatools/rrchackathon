@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+def seed_rentals
+  rentals_list = JSON.parse(File.read('output.json'))
+
+  rentals_list.each do |rental|
+    formatted_rentals = ""
+    
+    Rental.create(formatted_rentals)
+  end
+end

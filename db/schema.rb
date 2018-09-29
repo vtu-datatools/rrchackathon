@@ -10,6 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2018_09_29_215232) do
+
+  create_table "rentals", force: :cascade do |t|
+    t.string "address"
+    t.integer "area"
+    t.float "bathrooms"
+    t.integer "bedrooms"
+    t.float "latitude"
+    t.float "longitude"
+    t.boolean "no_smoking"
+    t.boolean "cats_allowed"
+    t.boolean "dogs_allowed"
+    t.boolean "wheelchair_accessible"
+    t.string "post_id"
+    t.string "post_link"
+    t.datetime "post_time"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
 end
