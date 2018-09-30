@@ -16,22 +16,6 @@
     <th>Wheelchair Accessible</th>
   </tr>
 
-<% @rentals.each do |r| %>
-  <tr>
-    <td><%= r.post_id %></td>
-    <td><a href="<%= r.post_link %>">link</a></td>
-    <td><%= r.post_time %></td>
-    <td><%= r.address %></td>
-    <td><%= r.area %></td>
-    <td><%= r.bathrooms %></td>
-    <td><%= r.bedrooms %></td>
-    <td>$<%= r.price %></td>
-    <td><%= r.latitude %></td>
-    <td><%= r.longitude %></td>
-    <td><%= r.no_smoking %></td>
-    <td><%= r.cats_allowed %></td>
-    <td><%= r.dogs_allowed %></td>
-    <td><%= r.wheelchair_accessible %></td>
-  </tr>
-<% end %>
+<%= render @rentals %>
+
 </table>
