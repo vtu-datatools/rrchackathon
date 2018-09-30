@@ -1,0 +1,65 @@
+<div class="row">
+  <div class="col-sm-offset-2 col-sm-8">
+    <div class="row">
+      <h3>Volunteer your Rental Data</h3>
+      <h3></h3>
+
+      <div class="col-sm-offset-3 col-sm-6">
+        <h3></h3> 
+
+        <%= bootstrap_form_for(@rental, 
+                               url: rentals_path) do |f| %>
+
+          <%= f.text_field  :address,
+                            placeholder: 'Address', 
+                            class: 'form-control',
+                            required: 'false' %>
+
+          <%= f.number_field  :area,
+                            placeholder: 'Sq Footage', 
+                            class: 'form-control',
+                            required: 'false' %>
+
+          <%= f.number_field  :bathrooms,
+                            placeholder: '# Baths', 
+                            class: 'form-control',
+                            required: 'false' %>
+          
+
+          <%= f.number_field  :bedrooms,
+                            placeholder: '# Beds', 
+                            class: 'form-control',
+                            required: 'false' %>
+          
+          <%= f.number_field  :price,
+                            placeholder: 'Price', 
+                            class: 'form-control',
+                            required: 'false' %>
+          
+          <%= f.number_field  :latitude,
+                            placeholder: 'Lat', 
+                            class: 'form-control',
+                            required: 'false' %>
+
+          <%= f.number_field  :longitude,
+                            placeholder: 'Long', 
+                            class: 'form-control',
+                            required: 'false' %>
+          
+          <%= f.check_box   :no_smoking %>
+          
+          <%= f.check_box   :cats_allowed %>
+
+          <%= f.check_box   :dogs_allowed %>
+
+          <%= f.check_box   :wheelchair_accessible %>
+
+          <%= f.submit 'Submit to Registry', id:'submit', class: 'btn sign-up-button' %>
+          <%= link_to(rentals_path, :type => 'button', :class =>'btn btn-dark') do %>
+            <i class="fa fa-home" aria-hidden="true"></i> Home Page
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

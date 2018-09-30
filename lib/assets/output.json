@@ -1,5 +1,28 @@
 [
-{"post_link": "https://vancouver.craigslist.ca/van/apa/d/the-epicenter-of-luxury-and/6710875716.html", "post_id": "6710875716.html", "post_time": "2018-09-29T14:38:31-0700", "price": "1000", "address": "vancouver", "area": "", "bathrooms": "1", "bedrooms": "1", "is_furnished": "TODO", "housing_type": "TODO", "laundry": "TODO", "location": {"latitude": "49.260219", "longitude": "-123.058641"}, "parking": "TODO", "pets": {"cats_allowed": true, "dogs_allowed": true}, "no_smoking": false, "wheelchair_accessible": false},
+{"post_link": "https://vancouver.craigslist.ca/van/apa/d/the-epicenter-of-luxury-and/6710875716.html",
+ 	"post_id": "6710875716.html",
+  	"post_time": "2018-09-29T14:38:31-0700",
+   	"price": "1000", 
+   	"address": "vancouver", 
+   	"area": "", 
+   	"bathrooms": "1", 
+   	"bedrooms": "1", 
+   	"is_furnished": "TODO", 
+   	"housing_type": "TODO", 
+   	"laundry": "TODO", 
+   	"location": 
+   	{
+   		"latitude": "49.260219", 
+   		"longitude": "-123.058641"
+   	}, 
+   	"parking": "TODO", 
+   	"pets": {
+   		"cats_allowed": true, 
+   		"dogs_allowed": true
+   	}, 
+   	"no_smoking": false, 
+   	"wheelchair_accessible": false
+},
 {"post_link": "https://vancouver.craigslist.ca/rds/apa/d/1-bdrm-basement-for-rent/6710884644.html", "post_id": "6710884644.html", "post_time": "2018-09-29T14:50:17-0700", "price": "925", "address": "", "area": "", "bathrooms": "1", "bedrooms": "1", "is_furnished": "TODO", "housing_type": "TODO", "laundry": "TODO", "location": {"latitude": "49.041325", "longitude": "-122.791754"}, "parking": "TODO", "pets": {"cats_allowed": false, "dogs_allowed": false}, "no_smoking": false, "wheelchair_accessible": false},
 {"post_link": "https://vancouver.craigslist.ca/van/apa/d/2bedroom-2-bath-furnished/6710881199.html", "post_id": "6710881199.html", "post_time": "2018-09-29T14:45:42-0700", "price": "3600", "address": "Yaletown, Vancouver", "area": "1035", "bathrooms": "2", "bedrooms": "2", "is_furnished": "TODO", "housing_type": "TODO", "laundry": "TODO", "location": {"latitude": "49.278756", "longitude": "-123.112640"}, "parking": "TODO", "pets": {"cats_allowed": true, "dogs_allowed": true}, "no_smoking": true, "wheelchair_accessible": true},
 {"post_link": "https://vancouver.craigslist.ca/rds/apa/d/basement-for-rent-in/6710883465.html", "post_id": "6710883465.html", "post_time": "2018-09-29T14:48:46-0700", "price": "1150", "address": "Guildford", "area": "", "bathrooms": "", "bedrooms": "", "is_furnished": "TODO", "housing_type": "TODO", "laundry": "TODO", "location": {"latitude": "49.180539", "longitude": "-122.805382"}, "parking": "TODO", "pets": {"cats_allowed": false, "dogs_allowed": false}, "no_smoking": false, "wheelchair_accessible": false},
