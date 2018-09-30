@@ -1,21 +1,32 @@
-<table>
-  <tr>
-    <th>ID</th>
-    <th>Link to Post</th>
-    <th>Date</th>
-    <th>Address</th>
-    <th>Square Foot</th>
-    <th>Bathrooms</th>
-    <th>Bedrooms</th>
-    <th>Price</th>
-    <th>Latitude</th>
-    <th>Longitude</th>
-    <th>Non-Smoking</th>
-    <th>Cats</th>
-    <th>Dogs</th>
-    <th>Wheelchair Accessible</th>
-  </tr>
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h2 class="text-center">Data Table</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Link to Post</th>
+            <th>Date</th>
+            <th>Address</th>
+            <th>Square Foot</th>
+            <th>Bathrooms</th>
+            <th>Bedrooms</th>
+            <th>Price</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>Non-Smoking</th>
+            <th>Cats</th>
+            <th>Dogs</th>
+            <th>Wheelchair Accessible</th>
+          </tr>
+        </thead>
 
-<%= render @rentals %>
+        <tbody>
+        <%= render @rentals %>
+        </tbody>
 
-</table>
+      </table>
+    </div>
+  </div>
+</div>
