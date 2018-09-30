@@ -18,6 +18,8 @@ class CreateRentals < ActiveRecord::Migration[5.2]
       t.string :post_link, default: "unknown"
       t.timestamp :post_time, default: "unknown"
 
+      t.belongs_to :landlord index: true
+
       #t.string :housing_type
       #t.boolean :is_furnished
       #t.boolean :laundry
