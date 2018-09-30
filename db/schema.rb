@@ -19,18 +19,18 @@ ActiveRecord::Schema.define(version: 2018_09_29_231954) do
   end
 
   create_table "rentals", force: :cascade do |t|
-    t.string "address"
-    t.integer "area"
-    t.float "bathrooms"
-    t.integer "bedrooms"
-    t.float "latitude"
-    t.float "longitude"
-    t.boolean "no_smoking"
-    t.boolean "cats_allowed"
-    t.boolean "dogs_allowed"
-    t.boolean "wheelchair_accessible"
-    t.string "post_id"
-    t.string "post_link"
+    t.string "address", default: "unknown"
+    t.integer "area", default: 0
+    t.float "bathrooms", default: 0.0
+    t.integer "bedrooms", default: 0
+    t.float "latitude", default: 0.0
+    t.float "longitude", default: 0.0
+    t.boolean "no_smoking", default: true
+    t.boolean "cats_allowed", default: true
+    t.boolean "dogs_allowed", default: true
+    t.boolean "wheelchair_accessible", default: true
+    t.string "post_id", default: "unknown"
+    t.string "post_link", default: "unknown"
     t.datetime "post_time"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

@@ -1,7 +1,35 @@
-<% @rentals %>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Link to Post</th>
+    <th>Date</th>
+    <th>Address</th>
+    <th>Square Foot</th>
+    <th>Bathrooms</th>
+    <th>Bedrooms</th>
+    <th>latitude</th>
+    <th>longitude</th>
+    <th>Smoking</th>
+    <th>Cats</th>
+    <th>Dogs</th>
+    <th>Wheelchair Accessible</th>
+  </tr>
 
-<% rentals_list = JSON.parse(File.read('public/output.json')) %>
-
-<%  rentals_list.each do |rental|  %>
-      <%= rental["address"] %>
-<%  end %>
+<% @rentals.each do |r| %>
+  <tr>
+    <td><%= r.post_id %></td>
+    <td><a href="<%= r.post_link %>">link</a></td>
+    <td><%= r.post_time %></td>
+    <td><%= r.address %></td>
+    <td><%= r.area %></td>
+    <td><%= r.bathrooms %></td>
+    <td><%= r.bedrooms %></td>
+    <td><%= r.latitude %></td>
+    <td><%= r.longitude %></td>
+    <td><%= r.no_smoking %></td>
+    <td><%= r.cats_allowed %></td>
+    <td><%= r.dogs_allowed %></td>
+    <td><%= r.wheelchair_accessible %></td>
+  </tr>
+<% end %>
+</table>

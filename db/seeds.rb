@@ -7,11 +7,41 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 def seed_rentals
-  rentals_list = JSON.parse(File.read('output.json'))
+  rentals_list = JSON.parse(File.read('public/output.json'))
 
   rentals_list.each do |rental|
-    formatted_rentals = ""
-    
+    address = rental["address"]
+    area = rental["area"]
+    bathrooms = rental["bathrooms"]
+    bedrooms = rental["bedrooms"]
+    latitude = rental["location"]["latitude"]
+    longitude = rental["location"]["longitude"]
+    no_smoking = rental["no_smoking"]
+    cats_allowed = rental["pets"]["cats_allowed"]
+    dogs_allowed = rental["pets"]["dogs_allowed"]
+    wheelchair_accessible = rental["wheelchair_accessible"]
+    post_id = rental["post_id"]
+    post_link = rental["post_link"]
+    post_time = rental["post_time"]
+
+    formatted_rentals = { "address" => address,
+                          "area" => area,
+                          "bathrooms" => bathrooms,
+                          "bedrooms" => bedrooms,
+                          "latitude" => latitude,
+                          "longitude" => longitude,
+                          "no_smoking" => latitude,
+                          "cats_allowed" => cats_allowed,
+                          "dogs_allowed" => dogs_allowed,
+                          "wheelchair_accessible" => wheelchair_accessible,
+                          "post_id" => post_id,
+                          "post_link" => post_link,
+                          "post_time" => post_time }
+
     Rental.create(formatted_rentals)
   end
+
+
 end
+
+seed_rentals
