@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 2018_09_29_231954) do
     t.integer "area", default: 0
     t.float "bathrooms", default: 0.0
     t.integer "bedrooms", default: 0
+    t.integer "price", default: 0
     t.float "latitude", default: 0.0
     t.float "longitude", default: 0.0
     t.boolean "no_smoking", default: true
@@ -32,8 +33,10 @@ ActiveRecord::Schema.define(version: 2018_09_29_231954) do
     t.string "post_id", default: "unknown"
     t.string "post_link", default: "unknown"
     t.datetime "post_time"
+    t.integer "landlord_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["landlord_id"], name: "index_rentals_on_landlord_id"
   end
 
 end

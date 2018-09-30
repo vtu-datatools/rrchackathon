@@ -5,6 +5,7 @@ class CreateRentals < ActiveRecord::Migration[5.2]
       t.integer :area, default: "unknown"
       t.float :bathrooms, default: "unknown"
       t.integer :bedrooms, default: "unknown"
+      t.integer :price, default: "unknown"
 
       t.float :latitude, default: "unknown"
       t.float :longitude, default: "unknown"
