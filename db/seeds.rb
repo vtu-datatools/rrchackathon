@@ -46,4 +46,15 @@ def seed_rentals
 
 end
 
+def seed_landlords
+  landlord_id = 0
+  40.times do 
+    Landlord.create(
+      name: "Landlord#{landlord_id}",
+     )
+    landlord_id = landlord_id + 1
+  end
+end
+
 seed_rentals
+seed_landlords
