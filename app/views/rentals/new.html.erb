@@ -36,15 +36,17 @@
                             class: 'form-control',
                             required: 'false' %>
           
-          <%= f.number_field  :latitude,
-                            placeholder: 'Lat', 
-                            class: 'form-control',
-                            required: 'false' %>
+          <%= select        "post", 
+                            :old_landlord,
+                            Landlord.order("name").map { |s| [s.name, s.id] },
+                            include_blank: true,
+                            placeholder: 'Choose an existing Landlord', 
+                            required: "false" %>
 
-          <%= f.number_field  :longitude,
-                            placeholder: 'Long', 
-                            class: 'form-control',
-                            required: 'false' %>
+          <%= text_field    "post",
+                            :new_landlord,
+                            placeholder: 'Enter a new Landlord', 
+                            required: "false" %>
           
           <%= f.check_box   :no_smoking %>
           

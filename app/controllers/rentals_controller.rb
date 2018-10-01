@@ -5,6 +5,7 @@ class RentalsController < ApplicationController
 
   def new
   	@rental = Rental.new
+  	@landlords = Landlord.all
   	
   end
 
@@ -23,6 +24,12 @@ class RentalsController < ApplicationController
   private
 
   	def rental_params
+  		if params[:old_landlord_id].present?
+	  		params[:landlord_id] = params[:old_landlord_id]
+		end
+		if params[:new_landlord].present?
+	  		params[:landlord_id] = params[:new_landlord]		
+		end
 		params.require(:rental).permit( :address,
 		 								:area, 
 		  								:bathrooms, 
