@@ -19,17 +19,19 @@ ActiveRecord::Schema.define(version: 2018_09_30_212049) do
   end
 
   create_table "rentals", force: :cascade do |t|
+    t.integer "price"
     t.string "address"
     t.integer "area"
     t.float "bathrooms"
     t.integer "bedrooms"
-    t.integer "price"
     t.float "latitude"
     t.float "longitude"
     t.boolean "no_smoking"
     t.boolean "cats_allowed"
     t.boolean "dogs_allowed"
     t.boolean "wheelchair_accessible"
+    t.boolean "bedbugs"
+    t.boolean "rats"
     t.string "post_id"
     t.string "post_link"
     t.datetime "post_time"

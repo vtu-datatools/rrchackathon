@@ -12,11 +12,7 @@ class RentalsController < ApplicationController
   def create
   	@rental = Rental.new(rental_params)
 
-  	if @rental.save
-  		redirect_to rentals_path
-  	else
-  		redirect_to new_rental_path
-  	end
+  	
 
   end
 

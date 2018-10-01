@@ -32,3 +32,23 @@ a:hover, a:active, a:link, a:visited {
 .control-label {
   display: none;
 }
+.hide {
+  display: none;
+}
+
+a {
+  span {
+    .text {
+      color: white;
+    }
+  }
+}
+
+.btn-dark {
+  background-color: $navbarColor;
+  color: white;
+}
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active, .btn-dark.active {
+  background-color: #424242;
+  color: #C0C0C0;
+}

@@ -1,7 +1,7 @@
 <tr>
-  <td><%= rental.post_id %></td>
+  <td class="hide"><%= rental.post_id %></td>
   <td><a href="<%= rental.post_link %>">link</a></td>
-  <td><%= rental.post_time %></td>
+  <td><%= rental.post_time.strftime('%F') if rental.post_time.present? %></td>
   <td><%= rental.address %></td>
   <td><%= rental.area %></td>
   <td><%= rental.bathrooms %></td>
@@ -13,4 +13,5 @@
   <td><%= rental.cats_allowed %></td>
   <td><%= rental.dogs_allowed %></td>
   <td><%= rental.wheelchair_accessible %></td>
+  <td><%= rental.landlord.name if rental.landlord.present? %></td>
 </tr>
