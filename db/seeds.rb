@@ -25,7 +25,8 @@ def seed_rentals
     post_link = rental["post_link"]
     post_time = rental["post_time"]
 
-    formatted_rentals = { "address" => address,
+    formatted_rentals = { "data_source" => "WEB_CRAWLER"
+                          "address" => address,
                           "area" => area,
                           "bathrooms" => bathrooms,
                           "bedrooms" => bedrooms,

@@ -32,16 +32,17 @@ a:hover, a:active, a:link, a:visited {
 .control-label {
   display: none;
 }
+
 .hide {
   display: none;
 }
 
-a {
-  span {
-    .text {
-      color: white;
-    }
-  }
+.text, .filter-option-inner-inner {
+  color: white;
+}
+
+.text:hover {
+  color: grey;
 }
 
 .btn-dark {
@@ -51,4 +52,8 @@ a {
 .btn-dark:hover, .btn-dark:focus, .btn-dark:active, .btn-dark.active {
   background-color: #424242;
   color: #C0C0C0;
+}
+
+.bool-header {
+  transform: rotate(-60deg) translate(20px, -20px);
 }

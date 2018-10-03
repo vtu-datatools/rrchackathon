@@ -1,0 +1,108 @@
+<%= form_tag rentals_path do %>
+  <div>
+    <%= label_tag "Choose your Landlord:" %> 
+    <%= select_tag        "old_landlord_id",
+                          options_from_collection_for_select(@landlords, "id", "name"),
+                          required: false,
+                          include_blank: true,
+                          "data-live-search" => true,
+                          class: "form-control selectpicker" %>
+  <br/>
+    <%= render new_landlord_displayer %>
+  </div>
+  <h6 class='text-right' id="landlord_FAQ"><small class="text-muted"><a href="">*optional</a></small></h6>
+  
+  <div class="row">
+    <div class="col-sm-4">
+      <%= number_field_tag  :price,
+                            params[:price],
+                            placeholder: 'Price',
+                            prepend: "$",
+                            class: 'form-control',
+                            required: true %>
+    </div>
+
+    <div class="col-sm-8">
+      <%= text_field_tag  :address,
+                          params[:address],
+                          placeholder: 'Address, street or neighbourhood',
+                          class: 'form-control',
+                          required: true %>
+    </div>
+  </div>
+  <h6 class='text-right' id="address_FAQ"><small class="text-muted"><a href="">*required</a></small></h6>
+  
+  <div class="row">
+    <div class="col-sm-4">
+      <%= number_field_tag  :bedrooms,
+                            params[:bedrooms],
+                            placeholder: 'Bdrms', 
+                            class: 'form-control',
+                            required: false %>         
+    </div>
+
+    <div class="col-sm-4">
+      <%= number_field_tag  :bathrooms,
+                            params[:bathrooms],
+                            placeholder: 'Baths', 
+                            class: 'form-control',
+                            required: false %>
+    </div>
+
+    <div class="col-sm-4">
+      <%= number_field_tag  :area,
+                            params[:area],
+                            placeholder: 'Sq Ft', 
+                            class: 'form-control',
+                            required: false %>
+    </div>
+  </div>
+  <h6 class='text-right'><small class="text-muted">*optional</small></h6>
+        
+  <div class="row">
+    <div class="col-sm-4">
+      <%= check_box_tag :parking %>
+      <%= label_tag "Free Parking?" %>
+      <br/>
+      <%= check_box_tag :laundry %>
+      <%= label_tag "Free Laundry?" %>
+      <br/>
+      <%= check_box_tag :dishwasher %>
+      <%= label_tag "Dishwasher?" %>
+    </div>
+    <div class="col-sm-4">
+      <%= check_box_tag :wheelchair_accessible %>
+      <%= label_tag "Accessibility?" %>
+      <br/>
+      <%= check_box_tag :is_furnished %>
+      <%= label_tag "Furnished?" %>
+      <br/>
+      <%= check_box_tag :no_smoking %>
+      <%= label_tag "No Smoking?" %>
+    </div>
+
+    <div class="col-sm-4">
+      <%= check_box_tag :cats_allowed %>
+      <%= label_tag "Cats?" %>
+      <br/>
+      <%= check_box_tag :dogs_allowed %>
+      <%= label_tag "Dogs?" %>
+      <br/>
+      <%= check_box_tag :yard %>
+      <%= label_tag "Yard or Deck?" %>
+    </div>
+
+  </div>
+  <h6 class='text-right'><small class="text-muted">*indicate all that apply</small></h6>
+
+  <%= check_box_tag :declare %>
+  <%= label_tag "You declare this information to be accurate?" %>
+  <h6 class='text-right'><small class="text-muted">*required</small></h6>
+
+  <%= submit_tag 'Submit Data', id:'submit', class: 'btn sign-up-button' %>
+
+  <%= link_to(rentals_path, :type => 'button', :class =>'btn btn-dark pull-right') do %>
+    <i class="fa fa-home" aria-hidden="true"></i> Home
+  <% end %>
+
+<% end %>

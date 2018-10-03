@@ -2,8 +2,10 @@ Rails.application.routes.draw do
 
   devise_for :users, :controllers => {:registrations => "registrations"}
   root to: 'rentals#index'
+
   resources :landlords
   resources :rentals
+  get 'rentals_map', to: 'rentals#map'  
 
   devise_scope :user do
     get 'login', to: 'devise/sessions#new'

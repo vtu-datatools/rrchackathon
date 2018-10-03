@@ -19,26 +19,33 @@ ActiveRecord::Schema.define(version: 2018_09_30_212049) do
   end
 
   create_table "rentals", force: :cascade do |t|
+    t.string "housing_type"
     t.integer "price"
     t.string "address"
-    t.integer "area"
-    t.float "bathrooms"
     t.integer "bedrooms"
+    t.float "bathrooms"
+    t.integer "area"
+    t.boolean "parking", default: false
+    t.boolean "laundry", default: false
+    t.boolean "dishwasher", default: false
+    t.boolean "wheelchair_accessible", default: false
+    t.boolean "is_furnished", default: false
+    t.boolean "no_smoking", default: false
+    t.boolean "cats_allowed", default: false
+    t.boolean "dogs_allowed", default: false
+    t.boolean "yard", default: false
     t.float "latitude"
     t.float "longitude"
-    t.boolean "no_smoking"
-    t.boolean "cats_allowed"
-    t.boolean "dogs_allowed"
-    t.boolean "wheelchair_accessible"
-    t.boolean "bedbugs"
-    t.boolean "rats"
+    t.string "data_source"
     t.string "post_id"
     t.string "post_link"
     t.datetime "post_time"
     t.integer "landlord_id"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["landlord_id"], name: "index_rentals_on_landlord_id"
+    t.index ["user_id"], name: "index_rentals_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|

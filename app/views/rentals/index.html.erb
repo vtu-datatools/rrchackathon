@@ -1,33 +1,42 @@
 <div class="container">
-  <div class="row">
-    <div class="col-12 text-center">
-      <h2 class="text-center">Data Table</h2>
-      <table class="table">
-        <thead>
-          <tr>
-            <th class="hide">ID</th>
-            <th>Link to Post</th>
-            <th>Date</th>
-            <th>Address</th>
-            <th>Square Foot</th>
-            <th>Bathrooms</th>
-            <th>Bedrooms</th>
-            <th>Price</th>
-            <th>Latitude</th>
-            <th>Longitude</th>
-            <th>Non-Smoking</th>
-            <th>Cats</th>
-            <th>Dogs</th>
-            <th>Wheelchair Accessible</th>
-            <th>Landlord</th>
-          </tr>
-        </thead>
+  <h2>
+    All Rental Data
+    <%= link_to "View Map", rentals_map_path, class: "btn btn-dark" %>
+  </h2>
+  <table class="table text-center">
+    <thead>
+      <tr>
+        
+        <th class="hide">ID</th>
+        <th class="hide">Link to Post</th>
+        <th class="hide">Date</th>
+        
+        <th>Address</th>
+        <th>Price</th>
+        <th>Bdrms</th>
+        <th>Baths</th>
+        <th>Square Feet</th>
+        
+        <th class="hide">Latitude</th>
+        <th class="hide">Longitude</th>
+        
+        <th class="bool-header pc-menu">Parking?</th>
+        <th class="bool-header pc-menu">Laundry?</th>
+        <th class="bool-header pc-menu">Dish Washer?</th>
+        <th class="bool-header pc-menu">Disability Access?</th>
+        <th class="bool-header pc-menu">Furnished?</th>
+        <th class="bool-header pc-menu">No-Smoking?</th>
+        <th class="bool-header pc-menu">Cats?</th>
+        <th class="bool-header pc-menu">Dogs?</th>
+        <th class="bool-header pc-menu">Yard?</th>
 
-        <tbody>
-        <%= render @rentals %>
-        </tbody>
+        <th>Landlord</th>
+      </tr>
+    </thead>
 
-      </table>
-    </div>
-  </div>
+    <tbody>
+    <%= render @rentals %>
+    </tbody>
+
+  </table>
 </div>

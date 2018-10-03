@@ -1,106 +1,13 @@
+<%= render 'rentals/rental_form/landlord_FAQ_modal' %>
+<%= render 'rentals/rental_form/address_FAQ_modal' %>
 <div class="row">
   <div class="col-sm-offset-2 col-sm-8">
     <div class="row">
       <h3 class="text-center">Volunteer your Rental Data</h3>
-      <h3></h3>
 
       <div class="col-sm-offset-3 col-sm-6">
-        <h3></h3> 
 
-        <%= bootstrap_form_for(@rental, 
-                               url: rentals_path) do |f| %>
-
-          <div>
-            Choose your Landlord: 
-            <%= select        "post", 
-                              :old_landlord,
-                              Landlord.order("name").map { |s| [s.name, s.id] },
-                              required: false,
-                              include_blank: true,
-                              "data-live-search" => true,
-                              class: "form-control selectpicker" %>
-          </div>
-          <br/>
-          <div>
-            <%= text_field    "post",
-                              :new_landlord,
-                              placeholder: 'Or enter a new Landlord', 
-                              class: 'form-control',
-                              required: false %>
-          </div>
-          <h6 class='text-right'><small class="text-muted">*optional</small></h6>
-          
-          <div class="row">
-            <div class="col-sm-3">
-              <%= f.number_field  :price,
-                                placeholder: 'Price',
-                                required: true %>
-            </div>
-
-            <div class="col-sm-9">
-              <%= f.text_field  :address,
-                                placeholder: 'Address',
-                                required: true %>
-            </div>
-          </div>
-          <h6 class='text-right'><small class="text-muted">*required</small></h6>
-          
-          <div class="row">
-            <div class="col-sm-4">
-              <%= f.number_field  :bedrooms,
-                                  placeholder: 'Bdrms', 
-                                  required: false %>         
-            </div>
-
-            <div class="col-sm-4">
-              <%= f.number_field  :bathrooms,
-                                  placeholder: 'Baths', 
-                                  required: false %>
-            </div>
-
-            <div class="col-sm-4">
-              <%= f.number_field  :area,
-                                  placeholder: 'Sq Ft', 
-                                  class: 'form-control',
-                                  required: false %>
-            </div>
-          </div>
-          <h6 class='text-right'><small class="text-muted">*optional</small></h6>
-                
-          <div class="row">
-            <div class="col-sm-4">
-              <%= f.check_box   :no_smoking,
-                                label: "No Smoking?" %>
-              
-              <%= f.check_box   :wheelchair_accessible,
-                                label: "Wheelchair Access?" %>
-            </div>
-
-            <div class="col-sm-4">
-              <%= f.check_box   :cats_allowed,
-                                label: "Cats?" %>
-
-              <%= f.check_box   :dogs_allowed,
-                                label: "Dogs?" %>
-            </div>
-
-            <div class="col-sm-4">
-              <%= f.check_box   :bedbugs,
-                                label: "Bedbugs?" %>
-
-              <%= f.check_box   :rats,
-                                label: "Mice/Rats?" %>
-            </div>
-          </div>
-          <h6 class='text-right'><small class="text-muted">*indicate all that apply</small></h6>
-
-          <%= f.submit 'Submit to Registry', id:'submit', class: 'btn sign-up-button' %>
-
-          <%= link_to(rentals_path, :type => 'button', :class =>'btn btn-dark') do %>
-            <i class="fa fa-home" aria-hidden="true"></i> Home Page
-          <% end %>
-
-        <% end %>
+        <%= render 'rentals/rental_form' %>
 
       </div>
     </div>
@@ -109,6 +16,6 @@
 
 <script type="text/javascript">
     // To style only selects with the selectpicker class
-  $('select').selectpicker();
+  $('.selectpicker').selectpicker();
 </script>
 
