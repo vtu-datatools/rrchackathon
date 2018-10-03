@@ -3,30 +3,32 @@
   <td class="hide"><a href="<%= rental.post_link %>">link</a></td>
   <td class="hide"><%= rental.post_time.strftime('%F') if rental.post_time.present? %></td>
   
-  <td>
+  <td><small>
     <%= 
       rental.address.present? ? 
         link_to(rental.address, rental_path(rental)) : 
         link_to("View Rental", rental_path(rental)) 
     %>
-  </td>
-  <td>$<%= rental.price %></td>
-  <td><%= rental.bedrooms %></td>
-  <td><%= rental.bathrooms %></td>
-  <td><%= (rental.area.to_s + " ft<sup>2</sup>").html_safe if rental.area.present?  %></td>
+  </small></td>
+  <td><small>$<%= rental.price %></small></td>
+  <td><small><%= rental.bedrooms %></small></td>
+  <td><small><%= rental.bathrooms %></small></td>
+  <td><small><%= (rental.area.to_s + " ft<sup>2</sup>").html_safe if rental.area.present?  %></small></td>
   
   <td class="hide"><%= rental.latitude %></td>
   <td class="hide"><%= rental.longitude %></td>
   
-  <td class="pc-menu"><%= display_check_or_cross(rental.parking) %></td>
-  <td class="pc-menu"><%= display_check_or_cross(rental.laundry) %></td>
-  <td class="pc-menu"><%= display_check_or_cross(rental.dishwasher) %></td>
-  <td class="pc-menu"><%= display_check_or_cross(rental.wheelchair_accessible) %></td>
-  <td class="pc-menu"><%= display_check_or_cross(rental.is_furnished) %></td>
-  <td class="pc-menu"><%= display_check_or_cross(rental.no_smoking) %></td>
-  <td class="pc-menu"><%= display_check_or_cross(rental.cats_allowed) %></td>
-  <td class="pc-menu"><%= display_check_or_cross(rental.dogs_allowed) %></td>
-  <td class="pc-menu"><%= display_check_or_cross(rental.yard) %></td>
+  <td class="pc-menu"><small><%= display_check_or_cross(rental.parking) %></small></td>
+  <td class="pc-menu"><small><%= display_check_or_cross(rental.laundry) %></small></td>
+  <td class="pc-menu"><small><%= display_check_or_cross(rental.dishwasher) %></small></td>
+  <td class="pc-menu"><small><%= display_check_or_cross(rental.wheelchair_accessible) %></small></td>
+  <td class="pc-menu"><small><%= display_check_or_cross(rental.is_furnished) %></small></td>
+  <td class="pc-menu"><small><%= display_check_or_cross(rental.no_smoking) %></small></td>
+  <td class="pc-menu"><small><%= display_check_or_cross(rental.cats_allowed) %></small></td>
+  <td class="pc-menu"><small><%= display_check_or_cross(rental.dogs_allowed) %></small></td>
+  <td class="pc-menu"><small><%= display_check_or_cross(rental.yard) %></small></td>
   
-  <td><%= rental.landlord.present? ? link_to(rental.landlord.name, landlord_path(rental.landlord)) : "Unknown"  %></td>
+  <td><small>
+    <%= rental.landlord.present? ? link_to(rental.landlord.name, landlord_path(rental.landlord)) : "Unknown"  %>
+  </small></td>
 </tr>

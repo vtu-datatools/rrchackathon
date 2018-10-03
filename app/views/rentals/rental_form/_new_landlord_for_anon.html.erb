@@ -1,2 +1,6 @@
-<%= label_tag "You must be signed in to add new landlords to the database." %> 
-<%= label_tag "If you cannot find your landlord and do not want to make an account, please leave this section blank." %> 
+<div class="text-center">
+	<strong>You must <%= link_to "Login", login_path %> to add new landlords to the database.</strong><br/>
+	<strong>
+		If you cannot find your landlord and do not want to <%= link_to "Signup", signup_path %>, please leave this section blank.
+	</strong> 
+</div>
